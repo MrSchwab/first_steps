@@ -1,5 +1,3 @@
-# Lecture Pets, Part A
-
 class Pet:
     def __init__(self,n="Name",a="Age",h="Hunger",p="Playful"):
         self.name = n
