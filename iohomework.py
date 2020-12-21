@@ -1,4 +1,3 @@
-# Pirple Course - Homework #8
 import os.path
 
 user_file_name = input("Please insert file name: ")
