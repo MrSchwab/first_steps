@@ -1,6 +1,3 @@
-# Pirple Course
-# Tic Tac Toe - Part A
-
 # | | 0
 #-----1
 # | | 2
@@ -19,7 +16,7 @@ def drawField(field):
                 if column%2 == 0:
                     practical_column = int(column/2)
                     if column != 4:
-                        print(field[practical_column][practical_row],end = "")
+                        print(field[practical_column][practical_row], end = "")
                     else:
                         print(field[practical_column][practical_row])
                 else:
