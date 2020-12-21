@@ -1,10 +1,6 @@
-# Pirple Course - Homework #9 - Classes
-
-
 class Vehicle:
 
-    def __init__(self, make="None", model="None", year="None", weight="None", needs_maintenance=False,
-                 trips_since_maintenance=0):
+    def __init__(self, make="None", model="None", year="None", weight="None", needs_maintenance=False, trips_since_maintenance=0):
         self.make = make
         self.model = model
         self.year = year
